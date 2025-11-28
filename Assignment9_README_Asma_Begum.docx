@@ -1,0 +1,16 @@
+Name: Asma Begum
+Course: AD331 H11 — CRN 37160
+Repository: AI-ML-Assignment-9-Bias-Fairness
+Contents
+• bias_fairness_notebook.ipynb
+• requirements.txt
+• README.md (this document)
+Overview
+This repository contains the complete implementation for Assignment 9: Bias Detection and Mitigation using AIF360. The goal is to analyze bias in the Adult Census Income dataset, apply a mitigation technique, and compare fairness and accuracy.
+Baseline vs Mitigated Summary
+Metric	Baseline	Mitigated	Change
+Accuracy	0.84	0.82	-0.02
+Disparate Impact	0.69	0.92	+0.23
+Statistical Parity Difference	-0.18	-0.05	+0.13
+Fairness–Accuracy Trade-Off
+The mitigated model shows reduced bias after applying Reweighing, at the cost of a small decrease in accuracy. This trade-off is expected and acceptable for fairness-focused applications.
