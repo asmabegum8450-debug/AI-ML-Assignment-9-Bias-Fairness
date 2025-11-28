@@ -1,0 +1,16 @@
+Notebook Documentation — Bias Detection Notebook
+This document explains the structure and logic of bias_fairness_notebook.ipynb.
+Sections
+1. Data Setup — Load Adult dataset, define sensitive attributes.
+2. Baseline Model — Train logistic regression.
+3. Bias Detection — Compute Disparate Impact and SPD.
+4. Mitigation — Apply Reweighing from AIF360.
+5. Comparison — Compare fairness metrics and accuracy.
+Key Libraries
+• aif360
+• scikit-learn
+• pandas
+• numpy
+• matplotlib
+Outputs
+The notebook outputs fairness metrics and a comparison table to show improvements after mitigation.
